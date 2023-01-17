@@ -1,5 +1,5 @@
 FROM registry.gitlab.com/enki-portal/thermoengine:master
-COPY jupyter_server_config.py /etc/jupyter/ # buildkit
+COPY inital-condarc / opt/conda/.condarc # buildkit
 USER root
 RUN chown -R ${NB_UID} ${HOME}
 RUN pip install --no-cache-dir appmode
