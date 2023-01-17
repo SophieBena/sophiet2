@@ -1,5 +1,5 @@
 FROM registry.gitlab.com/enki-portal/thermoengine:master
-COPY start.sh start-notebook.sh start-singleuser.sh / usr/local/bin #buildkit
+COPY /thermoengine/${HOME}
 USER root
 RUN chown -R ${NB_UID} ${HOME}
 RUN pip install --no-cache-dir appmode
