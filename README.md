@@ -3,7 +3,7 @@
 Welcome! This project uses the olivine-spinel geothermometer (Jianping et al., 1995) and olivine-orthopyroxene-spinel geo-oxybarometer (Sack and Ghiorso, 1991a,b; Wood, 1990). The calculators in the Jupyter notebook are built upon the ThermoEngine package from the ENKI project.
 
 
-To use the geothermo-barometer app, click the 'launch binder' tab near the top of the page, which will take you to repository interface. If you use the results derived from this app in publications, please cite it using the DOI badge indicated.
+To use the geothermo-barometer app, click the 'launch binder' tab near the bottom of this file, which will take you to repository interface. If you use the results derived from this app in publications, please cite it using the DOI badge indicated.
 
 
 The olivine-spinel geothermometer is used to calculate the temperature, the pressure of formation is inputted by the user, and the oxygen fugacity is calculated using the Olivine-Orthopyroxene-Spinel geo-oxybarometer.
@@ -56,4 +56,4 @@ log⁡(fO2)=[log⁡fO2 (QFM)_(P,T)+220/T+0.35-0.0369P/T] - [12(log⁡(X_Fe^Ol))-
     [2(log(a_Fe3O4^spl))]
       where... a_Fe3O4^spl represents the activity of magnetite in spinel, which is calculated using the quinary model for cubic oxides from Sack and Ghioso (1991a, b)
     
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SophieBena/Ol-Opx-Spn-V15.git/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SophieBena/OOS14.git/main)
