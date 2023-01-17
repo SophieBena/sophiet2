@@ -1,5 +1,5 @@
 FROM registry.gitlab.com/enki-portal/thermoengine:master
-COPY inital-condarc / opt/conda/.condarc # buildkit
+COPY start.sh start-notebook.sh start-singleuser.sh / usr/local/bin #buildkit
 USER root
 RUN chown -R ${NB_UID} ${HOME}
 RUN pip install --no-cache-dir appmode
