@@ -56,4 +56,4 @@ log⁡(fO2)=[log⁡fO2 (QFM)_(P,T)+220/T+0.35-0.0369P/T] - [12(log⁡(X_Fe^Ol))-
     [2(log(a_Fe3O4^spl))]
       where... a_Fe3O4^spl represents the activity of magnetite in spinel, which is calculated using the quinary model for cubic oxides from Sack and Ghioso (1991a, b)
     
-[![Binder](https://mybinder.org/badge_logo.svg)]((https://hub.gke2.mybinder.org/user/sophiebena-oos14-izezqvqk/notebooks/Ol-Opx-SplV4.ipynb))
+[![Binder](https://mybinder.org/badge_logo.svg)](https://hub.gke2.mybinder.org/user/sophiebena-oos14-izezqvqk/notebooks/Ol-Opx-SplV4.ipynb)
