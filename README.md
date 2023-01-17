@@ -1,12 +1,14 @@
-# Olivine-Orthopyroxene-Spinel geothermo-oxybarometer V15
+# Olivine-Orthopyroxene-Spinel geothermo-oxybarometer NOTE: THIS APP IS STILL BEING TESTED!
 
 Welcome! This project uses the olivine-spinel geothermometer (Jianping et al., 1995) and olivine-orthopyroxene-spinel geo-oxybarometer (Sack and Ghiorso, 1991a,b; Wood, 1990). The calculators in the Jupyter notebook are built upon the ThermoEngine package from the ENKI project.
 
+To use the geothermo-barometer app, click the 'launch binder' tab under this paragraph, which will take you to repository interface. The interface is still under developement, however the geothermo-barometer is operational. Once you hit the 'lauch binder' tab it will take you to the ENKI-portal interface, where you can dismiss any pop-ups and click the green button at the bottom of the screen to access the Jupyter Notebook of interest which is called "Ol-Opx-SplV14.ipynb". Double click the orange tab on the left hand side with that name, and then hit the 'Run' button that appears at the top of the notebook (it is a triangle symbol - like a 'play' button). Once you have done that, scroll to the bottom of the screen where you can input your mineral data and the notebook will output the associated temperature and oxygen fugacity.
 
-To use the geothermo-barometer app, click the 'launch binder' tab near the bottom of this file, which will take you to repository interface. If you use the results derived from this app in publications, please cite it using the DOI badge indicated.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SophieBena/OOS14.git/main)
+
+If you use the results derived from this app in publications, please cite it using the DOI badge [in development].
 
 
-The olivine-spinel geothermometer is used to calculate the temperature, the pressure of formation is inputted by the user, and the oxygen fugacity is calculated using the Olivine-Orthopyroxene-Spinel geo-oxybarometer.
 
 The equations used in this notebook include:
 
@@ -56,4 +58,4 @@ log⁡(fO2)=[log⁡fO2 (QFM)_(P,T)+220/T+0.35-0.0369P/T] - [12(log⁡(X_Fe^Ol))-
     [2(log(a_Fe3O4^spl))]
       where... a_Fe3O4^spl represents the activity of magnetite in spinel, which is calculated using the quinary model for cubic oxides from Sack and Ghioso (1991a, b)
     
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SophieBena/OOS14.git/main)
+
