@@ -1,0 +1,6 @@
+include README.rst
+include thermoengine/aqueous/*
+include thermoengine/data/*
+include thermoengine/data/databases/*
+include thermoengine/data/phases/*
+include thermoengine/data/coder/*

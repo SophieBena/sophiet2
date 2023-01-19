@@ -1,0 +1,38 @@
+name: thermoengine
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Core scientific python
+  - conda
+  - pip
+  - python==3.8.5
+  - jupyterlab
+  - gsl
+  - blas==1.1
+  - numpy
+  - scipy
+  - cython
+  - sympy==1.7.1
+  - matplotlib
+  - seaborn
+
+  - pytest
+  - statsmodels
+  - pandas
+  - openpyxl
+  - wurlitzer
+  - pyyaml
+
+  - pip:
+      - cmake>=3.14.0
+      - deprecation
+      - numdifftools
+      - rubicon_objc==0.2.10
+      - sulfliq==1.0.0
+      - pytest-cov
+      - nbval
+      - elasticsearch
+      - elasticsearch_dsl
+      - earthchem
