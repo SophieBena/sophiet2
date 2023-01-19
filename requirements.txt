@@ -36,5 +36,5 @@ sympy>=1.11.1
 trio>=0.22.0
 uri-template>=1.2.0
 webcolors>=1.12
--e git+https://enki-portal.gitlab.io/ThermoEngine/#egg=thermoengine
+-e git+https://gitlab.com/ENKI-portal/ThermoEngine/-/tree/master/thermoengine#egg=thermoengine
 appmode
